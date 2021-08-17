@@ -44,4 +44,10 @@
             android:visibility="invisible"/>
     </FrameLayout>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/><!--        android:visibility="" invisible은 객체의 영역은 남겨두고 내용만 숨김, gone은 숨기고자 하는 객체의 내용 및 영역까지 전체 숨김처리 함 -->
+
+
 </LinearLayout>
